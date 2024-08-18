@@ -1,5 +1,5 @@
 const firebaseAdmin = require("firebase-admin");
-const serviceAccount = require("../secrets/festify-10478-firebase-adminsdk-e3r2c-50f3444119.json");
+const serviceAccount = require("../../festify-10478-firebase-adminsdk-e3r2c-50f3444119.json");
 
 firebaseAdmin.initializeApp({
   credential: firebaseAdmin.credential.cert(serviceAccount),
